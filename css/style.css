@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:ital,wght@0,400;1,600&display=swap');
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+header {
+
+    /* background-color: #ef4646;  */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+.logo {}
+
+.logo img {}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-right: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 30px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000019;
+    font-weight: 600;
+    transition: all 0.3s ease-out 0s;
+}
+
+nav ul li a:hover {
+    color: #ef4646;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000019;
+}
+
+.button {
+    font-weight: 600;
+    color: white;
+    background-color: #ef4646;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 0;
+
+    background: linear-gradient(to right, #7a2020, #ef4646);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .3s ease-out;
+}
+
+.button:hover {
+    background-position: left bottom;
+}
+
+/* banner section */
+
+section {
+    height: 70vh;
+    background-image: url(./../images/final.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 100px;
+
+
+}
+
+.banner {}
+
+.banner {}
+
+.banner-item {
+    width: 50%
+}
+
+.banner-item h1 {
+    font-size: 85px;
+    color: #002d5b;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.banner-item h4 {
+
+    color: #ef4646;
+    font-size: 22px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.5;
+
+}
+
+.banner-item p {}
+
+.banner-item button {}
+
+.hire-button {}
